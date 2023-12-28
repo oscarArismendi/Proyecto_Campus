@@ -7,13 +7,12 @@ Pasos para hacer una contribuccion en este proyecto:
 git branch ejemploPequeñaDescripcionDeCambios
 4) Hacer los cambios a los archivos 
 5) Hacer un commit despues de verificar que los archivos esten actualizados
-6) Utilizar el comando push origin con el nombre de la rama para enviar los cambios, ejemplo:
-git push origin ejemploPequeñaDescripcionDeCambios
-7) Ir a su perfil de github y abrir el repositorio en el cual hicieron el fork, debe aparecer un boton verde que diga "compare & pull request" hacer click
-8) Añadir comentarios de ser necesario y para finalizar oprimir el boton que dice "create pull request"
-
-Al terminar los cambios hacer un rebase para que los cambios que se hayan hecho en el repositorio original se mantengan, ejemplo
+6) Al terminar el commit hacer un rebase para que los cambios que se hayan hecho en el repositorio original se mantengan, ejemplo
 git rebase origin/main
+7) Utilizar el comando push origin con el nombre de la rama para enviar los cambios, ejemplo:
+git push origin ejemploPequeñaDescripcionDeCambios
+8) Ir a su perfil de github y abrir el repositorio en el cual hicieron el fork, debe aparecer un boton verde que diga "compare & pull request" hacer click
+9) Añadir comentarios de ser necesario y para finalizar oprimir el boton que dice "create pull request"
 
 Si todavia se tiene dudas de como colaborar el siguiente video explica como hacer el pull request:
 https://www.youtube.com/watch?v=8lGpZkjnkt4
