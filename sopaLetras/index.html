@@ -9,20 +9,39 @@
     <h1>Generador de sopa de letras</h1>
     <legend>Consejo: puedes resolver tu rompecabezas en linea</legend>
 
-    <p>Titulo</p>
-    <input type="text">
+    <p class = "gris">Titulo</p>
+    <input id="input_titulo" type="text">
     
-    <p>Subtitulo</p>
+    <p class = "gris">Subtitulo</p>
     <p>Opcional: utilice esta opcion para 
         incluir informacion adicional debajo del titulo</p>
-    <input type="text">
+    <input id="input_subtitulo" type="text">
     
-    <p>Dificultad</p>
-    <input type="radio" name="dificultad">Facil
-    <input type="radio" name="dificultad">Medio
-    <input type="radio" name="dificultad">Dificil
-
-    
-
+    <p class = "gris">Dificultad</p>
+    <select id="boton_dificultad">
+        <option  value="Facil">Facil</option>
+        <option  value="Medio">Medio</option>
+        <option  value="Dificil">Dificil</option>
+    </select>
+    <p id="texto_dificultad">Donde el texto de dificultad iria</p>
+    <p class = "gris" id="texto_tamaño">Tamaño</p>
+    <select id="boton_tamaño">
+        <option  value="7">7x7</option>
+        <option  value="10">10x10</option>
+        <option  value="14x14">14x14</option>
+    </select>    
+    <p id="titulo_palabras">Palabras</p>
+    <table>
+        <tr>
+            <td>fila1-columna1</td>
+            <td>fila1-columna2</td>
+        </tr>
+        <tr>
+            <td>fila-2-columna1</td>
+            <td>fila2-columna2</td>
+        </tr>
+    </table>
+    <button id ="boton_subir">Subir</button>
+    <script src="script.js" defer></script>
 </body>
 </html>
